@@ -1,7 +1,5 @@
 import configparser
 from pyspark import SparkConf
-
-
 def get_config(env):
     config = configparser.ConfigParser()
     config.read("conf/sbdl.conf")
